@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pip install *)",
+      "Bash(python main.py)",
+      "Bash(python *)",
+      "Bash(pyinstaller *)",
+      "Bash(.venv/bin/python *)",
+      "Bash(.venv/bin/pyinstaller *)",
+      "Bash(gh auth *)",
+      "Bash(git --version)",
+      "Bash(xcode-select --install)",
+      "Bash(echo \"exit code: $?\")"
+    ]
+  }
+}
